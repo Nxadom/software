@@ -1,36 +1,27 @@
-# NxCode Software
+# NxCode
 
-Repository untuk distribusi **NxCode** — installer Windows tidak disimpan di Git karena batas ukuran file GitHub (100 MB).
+Aplikasi **NxCode** untuk Windows.
 
 ## Download
 
-### Versi terbaru: 1.0.4
+**Versi terbaru: 1.0.4**
 
-| | Link |
+| | |
 |---|---|
-| **Halaman release** | https://github.com/Nxadom/software/releases/tag/v1.0.4 |
-| **Download langsung** | https://github.com/Nxadom/software/releases/download/v1.0.4/NxCode-Setup-1.0.4.exe |
+| Unduh installer | [NxCode-Setup-1.0.4.exe](https://github.com/Nxadom/software/releases/download/v1.0.4/NxCode-Setup-1.0.4.exe) |
+| Info release | [NxCode 1.0.4](https://github.com/Nxadom/software/releases/tag/v1.0.4) |
 
-Semua release: https://github.com/Nxadom/software/releases
+## Cara instalasi
 
-## Instalasi
+1. Klik link **NxCode-Setup-1.0.4.exe** di atas.
+2. Simpan file ke komputer Anda.
+3. Buka file tersebut dan ikuti petunjuk instalasi di layar.
 
-1. Klik link **Download langsung** di atas, atau buka halaman release dan klik `NxCode-Setup-1.0.4.exe`.
-2. Simpan file ke komputer.
-3. Jalankan `NxCode-Setup-1.0.4.exe` dan ikuti petunjuk di layar.
+## Persyaratan
 
-## Untuk maintainer — membuat Release baru
+- Windows 10 atau lebih baru
+- Koneksi internet (untuk mengunduh installer)
 
-Installer `.exe` **jangan** di-commit ke repo (sudah di-ignore lewat `.gitignore`).
+## Bantuan
 
-1. Buka https://github.com/Nxadom/software/releases
-2. Klik **Draft a new release**
-3. Tag: `v1.0.5` (contoh) — Title: `NxCode 1.0.5`
-4. Attach file installer dari folder lokal
-5. Release label: **None** — tunggu upload selesai — klik **Publish release**
-
-Link download otomatis mengikuti pola:
-
-`https://github.com/Nxadom/software/releases/download/<tag>/<nama-file.exe>`
-
-Contoh: `https://github.com/Nxadom/software/releases/download/v1.0.4/NxCode-Setup-1.0.4.exe`
+Jika ada kendala saat instalasi atau penggunaan, hubungi tim dukungan NxCode.
